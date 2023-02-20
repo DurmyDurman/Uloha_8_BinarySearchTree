@@ -230,7 +230,7 @@ int main(int argc, char* argv[])
 	int vypis_statu = 0;
 	int preskoc_radek_1 = 0;
 	Strom* root, * n, * x;
-	printf("Jak se jmenuje soubor?:\n"); //nacteni souboru
+	printf("Jak se jmenuje soubor?(hint: staty.csv):\n"); //nacteni souboru
 	scanf("%s", pole);
 	if (!(in = fopen(pole, "r"))) {
 		printf("Nemohu otevrit soubor\n");
@@ -284,7 +284,7 @@ int main(int argc, char* argv[])
 	{
 		while (!(menu < 5 && menu>0))
 		{
-			printf("Zvolte si akci: 1 = najit stat dle kodu, 2 = vypsat vsechny kody, 3 = smazat strom a ukoncit, 4 = novy klic\n ");
+			printf("Zvolte si akci: 1 = najit stat dle kodu (nefunguje), 2 = vypsat vsechny kody, 3 = smazat strom a ukoncit, 4 = novy klic\n ");
 			scanf("%d", &menu);
 		}
 
