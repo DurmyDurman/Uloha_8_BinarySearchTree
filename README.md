@@ -11,4 +11,4 @@ The goal of the program is to sort list of countries by binary search tree where
 Every country has 3 codes, numerical (N), two letter (XX), three letter (XXX) and every country has also 3 variants of their name: long in czech, short in czech, in english.  
 The user can than choose by which key is the BST sorted and which value (=name) will the cell have.   
 
-WARNING: THIS PROGRAMM WAS MADE WITH INTETION TO BE USED ONLY BY CZECH USERS
+WARNING: THIS PROGRAMM WAS MADE WITH INTENTION TO BE USED ONLY BY CZECH USERS
