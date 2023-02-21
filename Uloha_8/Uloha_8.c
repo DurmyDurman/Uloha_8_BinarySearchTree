@@ -282,19 +282,12 @@ int main(int argc, char* argv[])
 	tisk_info_strom(root); //vytisk informaci o strome
 	while (1) // menu pro manipulaci se stromem
 	{
-		while (!(menu < 5 && menu>0))
+		while (!(menu < 5 && menu>1))
 		{
-			printf("Zvolte si akci: 1 = najit stat dle kodu (nefunguje), 2 = vypsat vsechny kody, 3 = smazat strom a ukoncit, 4 = novy klic\n ");
+			printf("Zvolte si akci: 2 = vypsat vsechny kody, 3 = smazat strom a ukoncit, 4 = novy klic\n ");
 			scanf("%d", &menu);
 		}
 
-		if (menu == 1)
-		{
-			printf("Zvolte si klic:\n");
-			scanf("%s", radek_klic);
-			search_tree(root, radek_klic);
-			menu = 0;
-		}
 		if (menu == 2) {
 			tisk_vsech_klicu(root);
 			menu = 0;
